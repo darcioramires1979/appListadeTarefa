@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from "react";
 
+
+
 import { 
     View, 
     Text,
@@ -13,6 +15,7 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 import { AntDesign } from '@expo/vector-icons'; 
 import { FontAwesome } from '@expo/vector-icons';
 
+
 export default function Home(){
 
     //Criando os states 
@@ -25,7 +28,7 @@ export default function Home(){
     ]);
 
     useEffect(()=>{
-        alert('Executou o UseEffect ');
+       // alert('Executou o UseEffect ');
 
         const currentHour = new Date().getHours();
 
@@ -124,7 +127,7 @@ export default function Home(){
 }
 
 const styles = StyleSheet.create({
-  
+    
   container:{
       flex:1,
       paddingTop: 80,
