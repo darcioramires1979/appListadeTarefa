@@ -159,8 +159,8 @@ const styles = StyleSheet.create({
   },
 
   campo:{
-    backgroundColor: '#1F1E25',
-    color: '#ffff',
+    backgroundColor: '#fff',
+    color: '#000000',
     fontSize:18,
     marginTop:30,
     borderRadius:70,
